@@ -1,4 +1,5 @@
 This is a summary of some Javascript topics
+
 Array Methods
 1. Array length
 The length property returns the length (size) of an array:
