@@ -6,6 +6,6 @@ function printArrayValue(array){
     }
 }
 
-let arr = [Chemistry, Math, Biology, Physcology];
+let arr = [50, 60, "Biology", "Physcology"];
 
 printArrayValue(arr);
