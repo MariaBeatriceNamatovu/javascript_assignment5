@@ -1,20 +1,20 @@
-This is a summary of some Javascript topics
+This is a summary of some Javascript topics:
 
 Array Methods
-1. Array length
+1. Array length:
 The length property returns the length (size) of an array:
   An example:
 const fruits = ["Chemistry", "Biology", "Math"];
 let size = fruits.length;
 
-2. Array to String()
+2. Array to String():
    The JavaScript method toString() converts an array to a string of (comma-separated) array values.
    const fruits = ["Banana", "Orange", "Apple", "Mango"];
    document.getElementById("demo").innerHTML = fruits.toString();
 Note: The join() method also joins all array elements into a string.
 It behaves just like toString(), but in addition you can specify the separator:
 
-3. Popping and Pushing
+3. Popping and Pushing:
    Popping items out of an array, or pushing items into an array.
    The pop() method removes the last element from an array and returns the value that was popped out
      const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -25,24 +25,24 @@ It behaves just like toString(), but in addition you can specify the separator:
   const fruits = ["Banana", "Orange", "Apple", "Mango"];
   let length = fruits.push("Kiwi");
 
-4. Array Shift()
+4. Array Shift():
    Shifting is equivalent to popping, but working on the first element instead of the last.
    The shift() method removes the first array element and "shifts" all other elements to a lower index.
 
    const fruits = ["Banana", "Orange", "Apple", "Mango"];
    fruits.shift();
 
-5. Array unshift()
+5. Array unshift():
    The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements and re
    const fruits = ["Banana", "Orange", "Apple", "Mango"];
    fruits.unshift("Lemon");
 
-6. Length
+6. Length:
    The length property provides an easy way to append a new element to an array:
     const fruits = ["Banana", "Orange", "Apple", "Mango"];
     fruits[fruits.length] = "Kiwi";
 
-7. Concat()
+7. Concat():
    The concat() method creates a new array by merging (concatenating) existing arrays, it takes any number of arrays to be merged.
 
    const myGirls = ["Cecilie", "Lone"];
@@ -53,7 +53,7 @@ It behaves just like toString(), but in addition you can specify the separator:
    const arr1 = ["Emil", "Tobias", "Linus"];
    const myChildren = arr1.concat("Peter"); 
 
-8. Flattening an Array
+8. Flattening an Array:
    Flattening an array is the process of reducing the dimensionality of an array.
 
    The flat() method creates a new array with sub-array elements concatenated to a specified depth.
@@ -61,7 +61,7 @@ It behaves just like toString(), but in addition you can specify the separator:
    const myArr = [[1,2],[3,4],[5,6]];
    const newArr = myArr.flat();
 
-9. Slicing and splicing
+9. Slicing and splicing:
     The splice() method adds new items to an array.
 
    const fruits = ["Banana", "Orange", "Apple", "Mango"];
